@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Seat Optimization - Senior Design Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--primary-color);
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)),
+                        url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 150px 0;
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--secondary-color);
+        }
+
+        .feature-card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 30px;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .methodology-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+
+        .results-section {
+            padding: 50px 0;
+        }
+
+        .contact-section {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Airline Seat Optimization</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#methodology">Methodology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#results">Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#specifications">Specifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 mb-4">Airline Seat Optimization</h1>
+            <p class="lead mb-4">Using Altair Inspire for Weight Optimization in Aircraft Seating</p>
+            <a href="#overview" class="btn btn-primary btn-lg">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Project Overview</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>This senior design project focuses on optimizing the weight of airline seats using Altair Inspire, a powerful structural optimization software. The goal is to reduce the overall weight of aircraft seating while maintaining safety standards and passenger comfort.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Key Objectives</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Weight reduction</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Structural integrity</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Safety compliance</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Cost efficiency</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section id="methodology" class="methodology-section">
+        <div class="container">
+            <h2 class="section-title">Methodology</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <h5 class="card-title">1. Initial Analysis</h5>
+                            <p>Detailed analysis of current seat design and identification of optimization opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <h5 class="card-title">2. Altair Inspire</h5>
+                            <p>Utilization of Altair Inspire for topology optimization and structural analysis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <h5 class="card-title">3. Validation</h5>
+                            <p>Testing and validation of optimized designs to ensure safety and performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results-section">
+        <div class="container">
+            <h2 class="section-title">Results</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Achievements</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-graph-up text-primary me-2"></i>Weight reduction percentage</li>
+                                <li><i class="bi bi-shield-check text-primary me-2"></i>Safety compliance metrics</li>
+                                <li><i class="bi bi-currency-dollar text-primary me-2"></i>Cost savings</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Future Improvements</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-lightning text-warning me-2"></i>Further optimization potential</li>
+                                <li><i class="bi bi-gear text-warning me-2"></i>Manufacturing considerations</li>
+                                <li><i class="bi bi-arrow-right text-warning me-2"></i>Next steps</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Project Gallery</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card feature-card">
+                        <img src="[Placeholder for Altair Inspire Model]" class="card-img-top" alt="Altair Inspire Model">
+                        <div class="card-body">
+                            <h5 class="card-title">Initial Seat Design</h5>
+                            <p class="card-text">3D model of the original seat design before optimization.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card">
+                        <img src="[Placeholder for Optimization Results]" class="card-img-top" alt="Optimization Results">
+                        <div class="card-body">
+                            <h5 class="card-title">Optimization Results</h5>
+                            <p class="card-text">Topology optimization results showing material distribution.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card">
+                        <img src="[Placeholder for Final Design]" class="card-img-top" alt="Final Design">
+                        <div class="card-body">
+                            <h5 class="card-title">Final Optimized Design</h5>
+                            <p class="card-text">Refined design incorporating optimization results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specifications Section -->
+    <section id="specifications" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical Specifications</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Design Parameters</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-rulers me-2"></i>Seat Dimensions: [Specify dimensions]</li>
+                                <li><i class="bi bi-box-seam me-2"></i>Material: [Specify material]</li>
+                                <li><i class="bi bi-speedometer2 me-2"></i>Weight Target: [Specify target]</li>
+                                <li><i class="bi bi-gear me-2"></i>Safety Requirements: [Specify requirements]</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Analysis Parameters</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-calculator me-2"></i>Load Cases: [Specify load cases]</li>
+                                <li><i class="bi bi-graph-up me-2"></i>Optimization Goals: [Specify goals]</li>
+                                <li><i class="bi bi-shield-check me-2"></i>Safety Factors: [Specify factors]</li>
+                                <li><i class="bi bi-tools me-2"></i>Manufacturing Constraints: [Specify constraints]</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Project Team</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card feature-card text-center">
+                        <div class="card-body">
+                            <img src="[Placeholder for Team Member 1]" class="rounded-circle mb-3" alt="Team Member 1" style="width: 150px; height: 150px; object-fit: cover;">
+                            <h5 class="card-title">[Team Member 1 Name]</h5>
+                            <p class="card-text">[Role/Responsibilities]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card feature-card text-center">
+                        <div class="card-body">
+                            <img src="[Placeholder for Team Member 2]" class="rounded-circle mb-3" alt="Team Member 2" style="width: 150px; height: 150px; object-fit: cover;">
+                            <h5 class="card-title">[Team Member 2 Name]</h5>
+                            <p class="card-text">[Role/Responsibilities]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card feature-card text-center">
+                        <div class="card-body">
+                            <img src="[Placeholder for Team Member 3]" class="rounded-circle mb-3" alt="Team Member 3" style="width: 150px; height: 150px; object-fit: cover;">
+                            <h5 class="card-title">[Team Member 3 Name]</h5>
+                            <p class="card-text">[Role/Responsibilities]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card feature-card text-center">
+                        <div class="card-body">
+                            <img src="[Placeholder for Team Member 4]" class="rounded-circle mb-3" alt="Team Member 4" style="width: 150px; height: 150px; object-fit: cover;">
+                            <h5 class="card-title">[Team Member 4 Name]</h5>
+                            <p class="card-text">[Role/Responsibilities]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title text-white">Contact</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>For more information about this project, please contact:</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-envelope me-2"></i>Email: [Your Email]</li>
+                        <li><i class="bi bi-linkedin me-2"></i>LinkedIn: [Your LinkedIn]</li>
+                        <li><i class="bi bi-github me-2"></i>GitHub: [Your GitHub]</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Team</h5>
+                            <p>This project was completed as part of our Mechanical Engineering Senior Design course at [Your University].</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Airline Seat Optimization Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
