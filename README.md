@@ -53,11 +53,8 @@ For more information about this project, please contact:
 
 ## Institution
 
-This project was completed as part of the Mechanical Engineering Senior Design course at Old Dominion University.
+This project was completed as part of the Mechanical Engineering Technology Senior Design course at Old Dominion University.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
