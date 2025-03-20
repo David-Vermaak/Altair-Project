@@ -42,7 +42,7 @@ This project demonstrates the application of structural optimization techniques 
    git clone https://github.com/David-Vermaak/Altair-Project.git
    ```
 
-2. Open `index.html` in your web browser to view the project website.
+2. Open https://david-vermaak.github.io/Altair-Project/ in your web browser to view the project website.
 
 ## Contact
 
