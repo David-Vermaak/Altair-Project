@@ -14,19 +14,6 @@ This project demonstrates the application of structural optimization techniques 
 - Cost efficiency improvements
 - Comprehensive technical documentation
 
-## Project Structure
-
-```
-Altair-Project/
-├── index.html          # Main website file
-├── images/            # Project images directory
-│   ├── aircraft.jpg   # Hero section background
-│   ├── initial-design.jpg
-│   ├── optimization-results.jpg
-│   ├── final-design.jpg
-│   └── team/          # Team member photos
-└── README.md          # Project documentation
-```
 
 ## Team Members
 
