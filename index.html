@@ -310,10 +310,40 @@
                         <div class="card-body">
                             <h5 class="card-title">Design Parameters</h5>
                             <ul class="list-unstyled">
-                                <li><i class="bi bi-rulers me-2"></i>Seat Dimensions: [Specify dimensions]</li>
-                                <li><i class="bi bi-box-seam me-2"></i>Material: [Specify material]</li>
-                                <li><i class="bi bi-speedometer2 me-2"></i>Weight Target: [Specify target]</li>
-                                <li><i class="bi bi-gear me-2"></i>Safety Requirements: [Specify requirements]</li>
+                                <li><i class="bi bi-rulers me-2"></i>Seat Dimensions: L: 42' W: 20' H: 25'</li>
+                                <li><i class="bi bi-box-seam me-2"></i>Material: T6061-T6 Aluminum</li>
+                                <li><i class="bi bi-speedometer2 me-2"></i>Weight Target: 21 kg</li>
+                                <li><i class="bi bi-gear me-2"></i>Safety Requirements:</li>
+                                <table class="table table-bordered mt-2">
+                                    <thead>
+                                        <tr>
+                                            <th>Direction</th>
+                                            <th>Loading (G)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Up</td>
+                                            <td>5.4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Down</td>
+                                            <td>9.0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Forward</td>
+                                            <td>9.0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Back</td>
+                                            <td>1.8</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Side</td>
+                                            <td>4.0</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </ul>
                         </div>
                     </div>
@@ -323,10 +353,41 @@
                         <div class="card-body">
                             <h5 class="card-title">Analysis Parameters</h5>
                             <ul class="list-unstyled">
-                                <li><i class="bi bi-calculator me-2"></i>Load Cases: [Specify load cases]</li>
-                                <li><i class="bi bi-graph-up me-2"></i>Optimization Goals: [Specify goals]</li>
-                                <li><i class="bi bi-shield-check me-2"></i>Safety Factors: [Specify factors]</li>
-                                <li><i class="bi bi-tools me-2"></i>Manufacturing Constraints: [Specify constraints]</li>
+                                
+                                <li><i class="bi bi-graph-up me-2"></i>Optimization Goals: Weight reduction by 10%</li>
+                                <li><i class="bi bi-shield-check me-2"></i>Safety Factors: Factors of Safety of 1.5 for all load cases</li>
+                                <li><i class="bi bi-tools me-2"></i>Manufacturing Constraints: Must be manufacturable by Casting, Machining, or Water Jet Cutting</li>
+                                <li><i class="bi bi-calculator me-2"></i>Load Cases:</li>
+                                <table class="table table-bordered mt-2">
+                                    <thead>
+                                        <tr>
+                                            <th>Direction</th>
+                                            <th>Force (N)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Up</td>
+                                            <td>4131</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Down</td>
+                                            <td>6886</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Forward</td>
+                                            <td>6886</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Back</td>
+                                            <td>1377</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Side</td>
+                                            <td>3060</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </ul>
                         </div>
                     </div>

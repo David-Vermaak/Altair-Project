@@ -53,7 +53,7 @@ For more information about this project, please contact:
 
 ## Institution
 
-This project was completed as part of the Mechanical Engineering Technology Senior Design course at Old Dominion University.
+This project was completed as part of the Mechanical Engineering Technology - Senior Design course at Old Dominion University.
 
 
 ## Acknowledgments
