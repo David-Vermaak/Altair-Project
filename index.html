@@ -211,91 +211,59 @@
     <section id="gallery" class="py-5">
         <div class="container">
             <h2 class="section-title">Project Gallery</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card feature-card">
-                        <!-- Recommended image size: 800x600px -->
-                        <!-- Supported formats: JPG, PNG, WebP -->
-                        <!-- Place your image in the images folder and update the src attribute -->
-                        <img src="images/Solid_part.png" class="card-img-top" alt="Initial seat design before optimization">
-                        <div class="card-body">
-                            <h5 class="card-title">Initial Seat Design</h5>
-                            <p class="card-text">3D model of the original seat frame before optimization.</p>
+            <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/Solid_part.png" class="d-block w-100" alt="Initial seat design before optimization">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Initial Seat Design</h5>
+                            <p>3D model of the original seat frame before optimization.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Optimized_Component.png" class="d-block w-100" alt="Topology optimization results">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Optimization Results</h5>
+                            <p>Topology optimization results from Altair Inspire</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/ISO_Optimized_Component.png" class="d-block w-100" alt="Final optimized seat design">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Optimized Design</h5>
+                            <p>Refined design incorporating optimization results.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/03.png" class="d-block w-100" alt="Final optimized seat design">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Refined Design</h5>
+                            <p>Refined design with machining in mind</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Front_support_progression.png" class="d-block w-100" alt="Design iteration">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Front support design progression</h5>
+                            <p>This clearly shows the design progression for the front support</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Loading.png" class="d-block w-100" alt="Load Case Simulation">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Simulation of the Load Cases</h5>
+                            <p>Simulation of the load cases in Altair Inspire</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card feature-card">
-                        <img src="images/Optimized_Component.png" class="card-img-top" alt="Topology optimization results">
-                        <div class="card-body">
-                            <h5 class="card-title">Optimization Results</h5>
-                            <p class="card-text">Topology optimization results from Altair Inspire</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card feature-card">
-                        <img src="images/ISO_Optimized_Component.png" class="card-img-top" alt="Final optimized seat design">
-                        <div class="card-body">
-                            <h5 class="card-title">Optimized Design</h5>
-                            <p class="card-text">Refined design incorporating optimization results.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card feature-card">
-                        <img src="images/03.png" class="card-img-top" alt="Final optimized seat design">
-                        <div class="card-body">
-                            <h5 class="card-title">Refined Design</h5>
-                            <p class="card-text">Refined design with machining in mind</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card feature-card">
-                        <img src="images\Front_support_progression.png" class="card-img-top" alt="Design iteration">
-                        <div class="card-body">
-                            <h5 class="card-title">Front support design progression</h5>
-                            <p class="card-text">This clearly shows the design progression for the front support</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card feature-card">
-                        <img src="images/05.png" class="card-img-top" alt="Design iteration">
-                        <div class="card-body">
-                            <h5 class="card-title">Design Iteration 2</h5>
-                            <p class="card-text">Second iteration with improved features</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card feature-card">
-                        <img src="images/06.png" class="card-img-top" alt="Design iteration">
-                        <div class="card-body">
-                            <h5 class="card-title">Design Iteration 3</h5>
-                            <p class="card-text">Third iteration focusing on manufacturability</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card feature-card">
-                        <img src="images/07.png" class="card-img-top" alt="Design iteration">
-                        <div class="card-body">
-                            <h5 class="card-title">Design Iteration 4</h5>
-                            <p class="card-text">Fourth iteration with final refinements</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card feature-card">
-                        <img src="images/08.png" class="card-img-top" alt="Final design">
-                        <div class="card-body">
-                            <h5 class="card-title">Final Design</h5>
-                            <p class="card-text">Completed design ready for manufacturing</p>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
